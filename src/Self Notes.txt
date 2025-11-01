@@ -1,0 +1,4 @@
+1. Responsible for creating the ML Application as a package to be reused by others
+2. Whatever packages you mention in setup.py using find_packages it will search for all the folders that contains __init__.py for that package
+3. Requirements.txt file contains all the required packages to be installed and used in the project
+4. "-e ." in requirements.txt file is written to enable automatic triggering of setup.py when the txt file is invoked, but when requiements.txt file is run it should not import "-e ." so we remove it excplicitely
